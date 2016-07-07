@@ -1,0 +1,12 @@
+# -*- coding: euc-jp -*-
+
+require "/home/ryo/work/hirameki_local/hirameitter/config/environment.rb"
+require "/home/ryo/work/hirameki_local/hirameitter/lib/my_twitter.rb"
+
+all_users = User.find(:all)
+all_users.each{|a_user|
+  if (tmp_path = Twitter.get_user_icon_path(a_user.user_name))
+    a_user.image_url = tmp_path
+    a_user.save
+  end
+}

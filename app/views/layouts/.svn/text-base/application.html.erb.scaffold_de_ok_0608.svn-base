@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ 		<head>
+		   <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		   <meta name="description" content="twitterを使ってみんなでアイデアを共有するサービス" >
+           <meta name="keywords" content="twitter,マッシュアップ,web2.0,twitt,Ryo,マイニング,形態素解析,アイデア,idea,サービス" lang="ja" >
+           <script type="text/javascript" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+           <script type="text/javascript">
+           Hatena.Star.Token = '1c976c4105bcbb95c4d95871ac9c0d924e6b6219';
+           Hatena.Star.SiteConfig = {
+             entryNodes: {
+               'span.star': {
+                uri: 'h3 a',
+                title: 'h3',
+                container: 'h3'
+               }
+             }
+           };
+           </script>
+ 		</head>
+ 		<body>
+     		    <%= yield %>
+ 		    <center><p>Copyright (C) 2007- <a href="http://d.hatena.ne.jp/kanbayashi">Ryo</a> , All Right Reserved.</p></center>
+            <center><p>mushuping  <a href="http://twitter.com"><font color=red>Twitter</font></a>!!</p></center>
+
+ 		    <!--shinobi1-->
+            <script type="text/javascript" src="http://x6.yu-yake.com/ufo/07219790c"></script>
+            <noscript><a href="http://x6.yu-yake.com/bin/gg?07219790c" target="_blank">
+            <img src="http://x6.yu-yake.com/bin/ll?07219790c" border="0" alt="" ></a><br>
+            <span style="font-size:9px">[PR] <a href="http://hairmake_school.rentalurl.net" target="_blank">ヘアメイク 学校</a></span></noscript>
+            <!--shinobi2-->
+ 		</body>
+</html>

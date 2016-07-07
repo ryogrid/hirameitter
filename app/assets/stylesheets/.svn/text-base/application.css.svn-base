@@ -1,0 +1,73 @@
+body{
+    /*background-color: 	lightgoldenrodyellow;*/
+    background-color: 	FFFF66;
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	FONT-WEIGHT: bold; COLOR: navy
+}
+DD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 90%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+    font-family:MS Pゴシック;
+}
+/*
+dt{
+    font-size:100%;
+    font:
+}
+dd{
+    font-size:80%;
+}
+*/
+.main{
+    width: 600px;
+    background-color: 	white;
+    margin:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+.introduction{
+    background-color: #FFFFCC;
+    padding:20px;
+    margin-bottom:10px;
+}
+.logo{
+    align:right;
+
+}
+.logo a:link { color: white; }
+
+.picture{
+    float:left;
+}
+.user-name{
+    padding-left:5px;
+    padding-right:5px;
+    float:left;
+    font-weight:bold;
+}
+.twit{
+    margin-left:5px;
+}
+.date{
+    float:right;
+}
+.idea_twit{
+    border-top:0.5px solid gray;
+    border-bottom:0.5px gray;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.star{
+    font-size:0px;
+}
+.descendent-count{
+    color:red;
+    float:right;
+}
+.descendent-num{
+
+}
+

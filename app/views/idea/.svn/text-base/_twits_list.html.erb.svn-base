@@ -1,0 +1,5 @@
+<% @pages.each{ |each_twit| %>
+    <% #部分テンプレートに渡すパラメータ %>
+    <% @twit = each_twit%>
+    <%= render :partial => "a_twit"%>
+<% } %>

@@ -1,0 +1,49 @@
+<div class="introduction">
+    <DL>
+        <DT><u>これ何？</u></DT>
+        <DD>みんなの頭の中のアイデアを集めて見てみてさらにひらめいちゃおうってな感じのサービス.</DD>
+        <DT><u>利用方法</u></DT>
+        <DD>①<a href="http://twitter.com/hirameki">Twitterでのひらめいった-アカウント</a>をフレンドに登録</DD>
+        <DD>②何か面白いアイデアを思いついたら,その内容をtwitterで<font size="120%"><strong>@hirameki</strong></font>というフレーズに続けて発言しよう.</DD>
+        <DD>③その内容がひらめいったーに取り込まれてここに表示されるよ.</DD>
+        <DD>他の人のアイデアを参考にアイデアをどんどん出しちゃおう!!</DD>
+        <DT><u>他のアイデアに言及</u></DT>
+        <DD>各アイデアの先頭のh:XXXというのは,そのアイデアに対応する「ひらめきID」です. 自分のアイデアを発言する時にh:XXX(※コロンは半角)とひらめきIDを書いておくと，そのひらめきにアクセスするためのURLに変換されます.</DD>
+        <DD>また，ベースとなるアイデアを投稿した人には，あなたがアイデアを育ててくれた事が通知されます．</DD>
+        <DD>他の人のアイデアに言及したり,他の人のアイデアをベースに何かひらめいた時にはこの機能を活用しましょう.</DD>
+        <DT><u>アイデアの評価</u></DT>
+        <DD>各アイデアの横にある☆と+のくっついたアイコンをクリックするとアイデアに投票できます.</DD>
+        <DD>投票の結果は<a href="http://<%= ApplicationController::SITE_DOMAIN %>.s.hatena.ne.jp/">ココについてのはてなスターページ</a>で見られます.</DD>
+        <DD>自分が投票したアイデアは http://s.hatena.ne.jp/自分のはてなID/stars にアクセスすると見られます. 後で見返して楽しみましょう.</DD>
+        <DT><u>ひらめいったーのコンセプト</u></DT>
+        <DD><a href="http://photozou.jp/photo/photo_only/12352/17297902?size=800">コレ</a></DD>
+        <DT><u>その他の戯言</u></DT>
+        <DD><a href="http://d.hatena.ne.jp/kanbayashi/20070810/p2">ひらめいったーってサービス作った -Ryoの開発日記</a>をご覧になって下さいまし.</a></DD>
+	<DD><a href="http://d.hatena.ne.jp/kanbayashi/20101123/p1">☆祝☆ ひらめいったー 1万ひらめき到達</a>もどうぞ．</DD>
+        <DT><u>お願い</u></DT>
+        <DD>ブクマなんかしていただけるとうれしいなぁなんて→<a href="http://www.addclips.org/addclips.php" onclick="AddClipsUrl = location.href; AddClipsTitle = document.title; return AddClipsWindow(this);" target="_blank"><img src="http://img.addclips.org/addclips_0.gif" width="141" height="16" border="0" alt="ブックマークに追加する" style="vertical-align:middle;" /></a><script type="text/javascript">var AddClipsId = '14DD25D6F5AC6';</script><script type="text/javascript" src="http://www.addclips.org/addclips.js"></script></DD>
+        <p><!-- Begin TwitThis (http://twitthis.com/) -->
+<script type="text/javascript" src="http://s3.chuug.com/chuug.twitthis.scripts/twitthis.js"></script>
+<script type="text/javascript">
+<!--
+document.write('<a href="javascript:;" onclick="TwitThis.pop();"><img src="http://s3.chuug.com/chuug.twitthis.resources/twitthis_grey_72x22.gif" alt="TwitThis" style="border:none;" /></a>');
+//-->
+</script>
+<!-- /End -->
+<!-- nakanohito -->
+<script LANGUAGE="Javascript">
+<!--
+var refer = document.referrer;
+document.write("<a href='http://nakanohito.jp/'>");
+document.write("<img src='http://nakanohito.jp/an/?u=186257&h=816124&w=48&guid=ON&t=&version=js&refer="+escape(parent.document.referrer)+"&url="+escape(parent.document.URL)+"' border='0' width='48' height='48' />");
+document.write("</a>");
+//-->
+</script>
+<noscript>
+<img src="http://nakanohito.jp/an/?u=186257&h=816124&w=48&guid=ON&t=" width="48" height="48" alt="" border="0" />
+</noscript>
+<!-- nakanohito end -->
+</p>
+    </DL>
+</div>
+<p>

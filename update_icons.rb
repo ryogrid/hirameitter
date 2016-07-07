@@ -1,0 +1,31 @@
+# -*- coding: euc-jp -*-
+
+require "/home/ryo/rails_apps/hirameitter/config/environment.rb"
+require "/home/ryo/rails_apps/hirameitter/lib/my_twitter.rb"
+
+all_users = User.find(:all)
+count = 0
+op = 0
+all_users.each{|a_user|
+  op += 1
+
+  if op % 70 == 0
+    sleep 120
+  else
+    sleep 1
+  end
+
+  begin
+    if (tmp_path = Twitter.get_user_icon_path(a_user.user_name))
+      a_user.image_url = tmp_path
+      a_user.save
+#      puts "op=" + op.to_s + ",count=" + count.to_s + ":" + Time.now.to_s + ":" + tmp_path
+      count += 1
+    end
+  rescue
+  end
+#  else
+#    puts Time.now.to_s + ": retry"
+#    redo
+#  end
+}

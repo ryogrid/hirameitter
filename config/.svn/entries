@@ -1,0 +1,97 @@
+8
+
+dir
+549
+file:///home/ryo/newrepos/hirameitter/hirameitter_new/config
+file:///home/ryo/newrepos
+
+
+
+2012-06-22T13:11:49.679014Z
+524
+ryo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1eb566fe-a0d1-46bb-9a07-1cf2178325d9
+
+locales
+dir
+
+routes.rb
+file
+
+
+
+
+2012-06-22T13:24:24.000000Z
+466f936d3fea4f32b6078252ee665ad8
+2012-06-17T09:44:36.652877Z
+522
+ryo
+
+database.yml
+file
+
+
+
+
+2012-06-22T13:24:24.000000Z
+b774dc53351e2b629ea7a9a37ffb3fe1
+2012-06-22T13:11:49.679014Z
+524
+ryo
+
+application.rb
+file
+
+
+
+
+2012-06-22T13:24:24.000000Z
+f2050e8a1de6bdd48350e8ed7f575006
+2012-06-17T09:44:36.652877Z
+522
+ryo
+
+boot.rb
+file
+
+
+
+
+2012-06-22T13:24:24.000000Z
+6dc16b4ce071b9e69978545f12239255
+2012-06-17T09:44:36.652877Z
+522
+ryo
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2012-06-22T13:24:24.000000Z
+066cc7ba506ff8c6355b0d2ee112a3ce
+2012-06-17T09:44:36.652877Z
+522
+ryo
+
+environments
+dir
+

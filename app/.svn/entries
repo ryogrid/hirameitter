@@ -1,0 +1,46 @@
+8
+
+dir
+549
+file:///home/ryo/newrepos/hirameitter/hirameitter_new/app
+file:///home/ryo/newrepos
+
+
+
+2012-12-20T11:25:31.591620Z
+537
+ryo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1eb566fe-a0d1-46bb-9a07-1cf2178325d9
+
+assets
+dir
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+mailers
+dir
+
+views
+dir
+
